@@ -65,10 +65,14 @@ ul{
 }
 .header-top-menu{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     height: 95px;
     line-height: 100px;
     align-items: center;
+}
+.header-menu{
+    margin-left: 100px;
+    margin-right: 160px;
 }
 .header-menu-right{
     display: flex;
@@ -117,6 +121,9 @@ ul{
     background: #333333;
 }
 .btn-banner-right{
+    right: 0;
+}
+.btn-banner-right{
     position: absolute;
     margin-left: 1469px;
     margin-top: 105px;
@@ -152,7 +159,7 @@ ul{
 }
 .header-banner-title{
     font-size: 100px;
-    margin-left: 940px;
+    /*margin-left: 940px;*/
     color: #ffffff;
 }
 .header-banner-text-off{
@@ -161,15 +168,20 @@ ul{
 }
 .text-display{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    margin-left: 970px;
 }
 .header-banner-txt{
     color: #ffffff;
+    margin-left: 840px;
+    justify-content: center;
+    text-align: center;
 }
 .header-banner-home{
     margin-right: 1110px;
-    margin-top: 130px;
+    margin-top: 110px;
     color: #ffffff;
+    text-align: center;
 }
 .header-banner-home span{
     color: #00cccc;
@@ -1249,4 +1261,30 @@ textarea {
     text-decoration: none;
     list-style: none;
     color: gray;
+}
+
+/*RESPONSIVE MENU*/
+.checkbtn {
+    font-size: 30px;
+    color: rgb(79, 82, 80);
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.2);
+    display: none;
+    z-index: 2;
+    animation: fadeIn linear 0.2s;
 }
