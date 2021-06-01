@@ -8,7 +8,7 @@
 	height: 52px;
 	font-family: SourceSansPro-Regular;
 	font-size: 14px;
-	color: #5f727f;
+	color: $color-o;
 }
 .area-content-display {
 	width: 1170px;
@@ -48,15 +48,15 @@
 	button {
 		width: 101px;
 		height: 30px;
-		color: #ffffff;
-		background-color: #494c64;
+		color: $color-n;
+		background-color: $color-b;
 		border-radius: 4px;
 	}
 }
 .header-top {
 	font-family: Montserrat-Bold;
 	height: 96px;
-	color: #3c3950;
+	color: $color-c;
 }
 .brand {
 	font-size: 27px;
@@ -75,12 +75,12 @@
 		margin-left: 47px;
 		a {
 			text-decoration: none;
-			color: #3c3950;
+			color: $color-c;
 			&:hover {
-				color: #58cadd;
+				color: $color-d;
 			}
 			&:active {
-				border: 2px solid #3c3950;
+				border: 2px solid $color-c;
 				padding: 10px 23px;
 				box-sizing: border-box;
 			}
@@ -106,7 +106,7 @@
 }
 .number-product {
 	font-size: 14px;
-	color: #f4fbfc;
+	color: $color-e;
 	position: absolute;
 	left: 50%;
 	transform: translate(-50%, -5%);
@@ -127,7 +127,7 @@
 	justify-content: flex-end;
 	align-items: center;
 	height: 397px;
-	color: #ffffff;
+	color: $color-n;
 	ul {
 		list-style-type: none;
 		text-align: right;
@@ -148,9 +148,9 @@
 	button {
 		width: 80px;
 		height: 80px;
-		background-color: #212331;
+		background-color: $color-f;
 		&:hover {
-			background-color: #00bcd4;
+			background-color: $color-g;
 		}
 	}
 }
