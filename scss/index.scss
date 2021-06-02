@@ -1,0 +1,25 @@
+@import 'header';
+@import 'main';
+@import 'footer';
+@import 'color';
+@import 'responsive';
+
+@font-face {
+	font-family: 'SourceSansPro-Light';
+	src: url('../fonts/SourceSansPro-Light.ttf');
+    font-family: 'SourceSansPro-Regular';
+	src: url('../fonts/SourceSansPro-Regular.ttf');
+    font-family: 'montserrat-ultra-light';
+	src: url('../fonts/montserrat-ultra-light.otf');
+    font-family: 'Montserrat-Bold';
+	src: url('../fonts/Montserrat-Bold.ttf');
+}
+* {
+	margin: 0;
+	padding: 0;
+    // padding-top: 10px;
+	box-sizing: border-box;
+}
+button {
+	background-color: #ffffff;
+}
