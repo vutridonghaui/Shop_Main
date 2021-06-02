@@ -1798,6 +1798,7 @@ textarea {
   color: gray;
 }
 
+<<<<<<< HEAD
 /* mobile */
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5) {
   html {
@@ -2380,6 +2381,8 @@ textarea {
   }
 }
 
+=======
+>>>>>>> db73133735672f6c6085329502ea06b708b67ef8
 @font-face {
   font-family: 'SourceSansPro-Light';
   src: url("../fonts/SourceSansPro-Light.ttf");
