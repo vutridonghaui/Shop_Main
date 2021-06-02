@@ -149,6 +149,9 @@
 	.text-sell-more {
 		font-size: 38px;
 	}
+	.footer{
+		width: 100%;
+	}
 }
 @media only screen and (max-width: 1024px) {
 	.btn-bar-tablet {
@@ -536,4 +539,13 @@
 		position: static;
 		transform: none;
 	}
+	.row-footer-end,
+    .social-footer-end {
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+    }
 }

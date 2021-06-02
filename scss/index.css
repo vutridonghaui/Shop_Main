@@ -1798,7 +1798,6 @@ textarea {
   color: gray;
 }
 
-<<<<<<< HEAD
 /* mobile */
 @media only screen and (-webkit-min-device-pixel-ratio: 1.5) {
   html {
@@ -1972,6 +1971,9 @@ textarea {
   }
   .text-sell-more {
     font-size: 38px;
+  }
+  .footer {
+    width: 100%;
   }
 }
 
@@ -2379,10 +2381,24 @@ textarea {
     -webkit-transform: none;
             transform: none;
   }
+  .row-footer-end,
+  .social-footer-end {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    height: auto;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 15px;
+  }
 }
 
-=======
->>>>>>> db73133735672f6c6085329502ea06b708b67ef8
 @font-face {
   font-family: 'SourceSansPro-Light';
   src: url("../fonts/SourceSansPro-Light.ttf");
