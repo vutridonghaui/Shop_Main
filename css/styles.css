@@ -1552,3 +1552,34 @@ textarea {
     list-style: none;
     color: gray;
 }
+<<<<<<< HEAD
+=======
+
+
+/* .logo-and-contact {
+    width: 261px;
+    display: inline-block;
+    margin-right: 42px;
+}
+
+.footer-content-area {
+    float: right;
+    width: calc(100% - 303px);
+}
+
+.text-logo span {
+    color: #ffffff;
+}
+
+.text-logo-brand {
+    display: inline-block;
+}
+
+.text-logo {
+    display: inline-block;
+    align-items: center;
+    flex-direction: column; 
+    font-size: 38.67px;
+    color: #ffffff;
+} 
+>>>>>>> version1
